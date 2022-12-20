@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+    <!--use for show the message in browser-->
+    <h>{% block blog_title %} {{object.title}} {% endblock blog_title %}</h>
+    <p>{% block blog_content %} {{object.content}} {% endblock blog_content %}</p>
+    <p>{% block blog_author %} {{object.author}} {% endblock blog_author %}</p>
